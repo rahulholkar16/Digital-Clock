@@ -1,0 +1,51 @@
+.
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    min-height: 100vh;
+}
+
+#frame
+{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background: #ffffff;
+    border: 30px solid rgb(255, 254, 254);
+    border-radius: 30px;
+    top: 50%;
+    box-shadow: 40px 40px 40px;
+}
+
+#screen
+{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+    background: black;
+    top: 0%;
+    left: 0%;
+}
+
+#time
+{
+    display: flex;
+    position: relative;
+    font-size: 8rem;
+    justify-content: center;
+    top: 25%;  
+    color: aliceblue;
+}
+
+
